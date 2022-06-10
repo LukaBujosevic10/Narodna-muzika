@@ -1,0 +1,133 @@
+body {
+    background-image: url("slike/lan.jpg");
+
+}
+
+header{
+height: 100px;
+width: 100%;
+background-image: url("slike/sar.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+b
+  }
+
+.header-l{
+  height: 50px;
+  width: 20%;
+  float: left;
+  line-height: 50px;
+  font-size: 2vw;
+  margin-left: 5%;
+  margin-right: 12%;
+  margin-top: 10px;
+  background-color: white;
+  padding: 15px;
+  opacity: 0.9;
+  text-align: center;
+}
+.header-r{
+  height: 50px;
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  font-size: 1.5vw;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: white;
+  opacity: 0.9;
+  font-style: oblique;
+}
+
+
+li a:hover {
+  background-color: #111;
+  color: white;
+  opacity: 0.85;
+
+}
+.slika{
+  margin-top: 20px;
+  margin-left: 27%;
+  height: 600px;
+  position: absolute;
+   z-index: -1;
+
+
+}
+img{
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+
+}
+.naslov{
+  font-size: 9vw;
+  color: tomato;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px black;
+
+}
+
+.tekst{
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 25px;
+  color: black;
+  background-color: rgba(250, 248, 246, 0.8);
+  padding: 5px;
+}
+
+.slikaUTekstuL{
+  border: 1px solid black;
+  height: 250px;
+  width: 400px;
+  float: left;
+  margin: 10px;
+  background: white;
+
+}
+
+.slikaUTekstuD{
+  border: 1px solid black;
+  height: 250px;
+  width: 400px;
+  float: right;
+  margin: 10px;
+  background: white;
+}
+
+.opis{
+  height: 10%;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+}
